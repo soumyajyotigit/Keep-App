@@ -28,6 +28,39 @@
   color: #61dafb;
 }
 
+.header{
+  width: 100%;
+  line-height: 100px;
+  background-color: #f5ba13;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+  color: white;
+  box-shadow: 5px 3px 15px -5px rgba(0,0,0,0.3);
+}
+
+.footer{
+  color: white;
+  padding: 25px;
+  /* position: absolute; */
+  background: black;
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000);
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover{
+  color:#ffefba;
+  border-bottom: 1px solid #ffefba;
+   
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
